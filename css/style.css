@@ -489,6 +489,11 @@
         padding: 3rem 0 0 0;
     }
 }
+@media screen and (max-width: 622px) {
+    .about-text  {
+        width: 53%;
+    }
+}
 @media screen and (max-width: 562px) {
     .about-sec {
         padding: 2.5rem 0.5rem;
@@ -775,6 +780,15 @@
     .box-1 {
         margin-bottom: 1rem;
         height: 10rem;
+    }
+}
+@media screen and (max-width: 564px) {
+    .col-sec {
+        grid-template-columns: 10rem 10em 10rem;
+    }
+    .sub-box {
+        grid-template-columns: 10rem;
+        row-gap: 6px;
     }
 }
 @media screen and (max-width: 562px) {
