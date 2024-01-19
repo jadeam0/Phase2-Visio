@@ -87,6 +87,14 @@
     top: 57%;
     z-index: 50;
 }
+.sirc {
+    height: auto;
+    width: 90px;
+    position: absolute;
+    left: 82%;
+    top: 90%;
+    z-index: 50;
+}
 .blue-banner {
     background-color: #244ac2;
     color: white;
@@ -124,6 +132,9 @@
         left: 85%;
         top: 57%;
     }
+    .sirc {
+        top: 100%;
+    }
 }
 @media screen and (max-width: 1080px) {
     .black-banner {
@@ -151,6 +162,10 @@
         top: 57%;
         z-index: -1;
     }
+    .sirc {
+        left: 80%;
+        top: 100%;
+    }
 }
 @media screen and (max-width: 956px) {
     .black-banner {
@@ -167,6 +182,10 @@
         width: 95%;
         margin: 0 4%;
         overflow: auto;
+    }
+    .sirc {
+        left: 80%;
+        top: 100%;
     }
 }
 @media screen and (max-width: 828px) {
@@ -188,6 +207,10 @@
     .next {
         top: 33%;
         left: 77%;
+    }
+    .sirc {
+        left: 80%;
+        top: 94%;
     }
     .blue-banner {
         height: 2.5rem;
@@ -215,6 +238,10 @@
         display: none;
         width: 100%;
         height: 400px;
+    }
+    .sirc {
+        left: 80%;
+        top: 87%;
     }
 }
 @media screen and (max-width: 768px) {
@@ -314,11 +341,21 @@
         top: 33%;
         left: 77%;
     }
+    .sirc {
+        left: 78%;
+        top: 66%;
+    }
     .blue-banner {
         height: 2.3rem;
         width: 18rem;
         top: 60%;
         font-size: medium;
+    }
+}
+@media screen and (max-width: 413px){
+    .sirc {
+        left: 75%;
+        top: 64%;
     }
 }
 @media screen and (max-width: 375px) {
@@ -338,11 +375,21 @@
         top: 33%;
         left: 77%;
     }
+    .sirc {
+        left: 75%;
+        top: 64%;
+    }
     .blue-banner {
         height: 1.8rem;
         width: 14rem;
         top: 56%;
         font-size: small;
+    }
+}
+@media screen and (max-width: 362px) {
+    .sirc {
+        left: 70%;
+        top: 64%;
     }
 }
 @media screen and (max-width: 320px) {
