@@ -58,20 +58,23 @@
 }
 
 /* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+}
 .container {
-    width: 80%;
-    margin: 0 140px;
-    overflow: auto;
+    width: 100%;
 }
 .slider-outer{
     position: relative;
 }
 .slider-inner {
-    width: 100%;
+    width: 90%;
     height: 500px;
     overflow: hidden;
     position: relative;
     padding: 3px;
+    margin: 0 70px;
 }
 .slider-inner img {
     display: none;
@@ -119,7 +122,7 @@
     height: 3.5rem;
     width: 30rem;
     position: absolute;
-    left: 62%;
+    left: 64%;
     top: 57%;
     z-index: -1;
 }
