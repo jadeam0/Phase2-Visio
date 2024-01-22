@@ -60,8 +60,11 @@
 /* Banner */
 .container {
     width: 80%;
-    margin: 0 10%;
+    margin: 0 140px;
     overflow: auto;
+}
+.slider-outer{
+    position: relative;
 }
 .slider-inner {
     width: 100%;
