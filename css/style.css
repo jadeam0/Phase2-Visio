@@ -14,15 +14,18 @@
 /* Navbar */
 .navbar {
     display: flex;
-    padding: 14px 0;
-    margin: 0 7rem;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 2.7rem;
 }
 .navbar a img {
     height: 40px;
-    margin: 5px 0;
+    /* margin: 7px 0; */
+    margin-right: 0;
 }
 .logo {
     margin-right: auto;
+    margin-left: 1.8rem;
 }
 @media screen and (max-width: 768px){
     .navbar {
