@@ -16,16 +16,33 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    margin: 0 2.7rem;
+    margin: 0 4rem;
 }
 .navbar a img {
     height: 40px;
     /* margin: 7px 0; */
-    margin-right: 0;
+    margin-right: 0rem;
 }
 .logo {
     margin-right: auto;
-    margin-left: 1.8rem;
+    margin-left: 0.5rem;
+}
+@media screen and (max-width: 1075px){
+    .navbar {
+        /* display: flex;
+        justify-content: space-between;
+        padding: 10px 0; */
+        margin: 0 2.5rem;
+    }
+    .navbar a img {
+        /* height: 40px; */
+        /* margin: 7px 0; */
+        margin-right: 0;
+    }
+    .logo {
+        /* margin-right: auto; */
+        margin-left: 2rem;
+    }
 }
 @media screen and (max-width: 768px){
     .navbar {
