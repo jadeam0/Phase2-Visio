@@ -1,7 +1,6 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300px;
-    /* font-size: 24px; */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -157,13 +156,13 @@
     height: 3.5rem;
     width: 30rem;
     position: absolute;
-    left: 64%;
+    left: 60%;
     top: 57%;
     z-index: -1;
 }
 @media screen and (max-width: 1440px){
     .black-banner{
-        left: 66.5%;
+        left: 60%;
         top: 57%;
     }
     .next {
