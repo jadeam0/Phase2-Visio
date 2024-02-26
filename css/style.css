@@ -179,7 +179,7 @@
 }
 @media screen and (max-width: 1201px) {
     .black-banner {
-        left: 80%;
+        left: 57%;
     }
     .container {
         width: 100%;
@@ -544,6 +544,90 @@
         font-size: 19px;
     }
 }
+@media screen and (max-width: 1290px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 56%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1260px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 55%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 53%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1180px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 52%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1160px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 51%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1140px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 50%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.5rem 0rem;
+    }
+    .about-text  {
+        width: 57%;
+        font-weight: 300;
+        font-size: 19px;
+    }
+}
 @media screen and (max-width: 1080px){
     .about-sec {
         display: flex;
@@ -876,6 +960,67 @@
         grid-template-columns: 12rem 12rem;
     }
 }
+@media screen and (max-width: 1290px){
+    .col-sec {
+        grid-template-columns: 23.2rem 23.2rem 23.2rem;
+    }
+    .sub-box {
+        grid-template-columns: 11.2rem 11.2rem;
+    }
+}
+@media screen and (max-width: 1260px){
+    .col-sec {
+        grid-template-columns: 22.5rem 22.5rem 22.5rem;
+    }
+    .sub-box {
+        grid-template-columns: 11rem 11rem;
+    }
+}
+@media screen and (max-width: 1230px){
+    .col-sec {
+        grid-template-columns: 22.5rem 22.5rem 22.5rem;
+        margin-left: 1.5rem;
+    }
+    .sub-box {
+        grid-template-columns: 11rem 11rem;
+    }
+}
+@media screen and (max-width: 1220px){
+    .col-sec {
+        grid-template-columns: 22.3rem 22.3rem 22.3rem;
+        /* margin-left: 1.5rem; */
+    }
+    .sub-box {
+        grid-template-columns: 11rem 11rem;
+    }
+}
+@media screen and (max-width: 1180px){
+    .col-sec {
+        grid-template-columns: 21.5rem 21.5rem 21.5rem;
+        /* margin-left: 1.5rem; */
+    }
+    .sub-box {
+        grid-template-columns: 10.5rem 10.5rem;
+    }
+}
+@media screen and (max-width: 1160px){
+    .col-sec {
+        grid-template-columns: 21rem 21rem 21rem;
+        /* margin-left: 1.5rem; */
+    }
+    .sub-box {
+        grid-template-columns: 10.4rem 10.4rem;
+    }
+}
+@media screen and (max-width: 1140px){
+    .col-sec {
+        grid-template-columns: 20.5rem 20.5rem 20.5rem;
+        /* margin-left: 1.5rem; */
+    }
+    .sub-box {
+        grid-template-columns: 10.2rem 10.2rem;
+    }
+}
 @media screen and (max-width: 1080px) {
     .col-sec {
         grid-template-columns: 18.6rem 18.6rem 18.6rem;
@@ -895,6 +1040,15 @@
     .sub-box {
         grid-template-columns: 8.6rem 8.6rem;
         /* border: #061c2c solid 2px; */
+    }
+}
+@media screen and (max-width: 1000px){
+    .col-sec {
+        grid-template-columns: 17.6rem 17.6rem 17.6rem;
+        /* margin-left: 1.5rem; */
+    }
+    .sub-box {
+        grid-template-columns: 8.5rem 8.5rem;
     }
 }
 @media screen and (max-width: 985px) {
